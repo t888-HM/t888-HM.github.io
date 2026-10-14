@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My Homepage</title>
+    <!-- 数式を綺麗に出すためのライブラリ (MathJax) -->
+    <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, serif; margin: 40px; background-color: #fff; color: #000; line-height: 1.6; }
+        #container { max-width: 800px; margin: 0 auto; }
+        h1 { font-size: 24px; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 30px; }
+        h2 { font-size: 18px; border-left: 5px solid #333; padding-left: 10px; margin-top: 40px; margin-bottom: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        a { color: #0000ee; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .math-box { background-color: #f9f9f9; padding: 15px; border: 1px solid #ddd; margin: 20px 0; }
+    </style>
+</head>
+<body>
+<div id="container">
+    <!-- ここがメニュー部分 -->
+    <nav style="padding: 20px 0; border-bottom: 1px solid #ccc; margin-bottom: 30px;">
+        <a href="index.html" style="font-weight: bold;">ホーム</a> | 
+        <a href="research.html">講演履歴など</a>|
+        <a href="tosuuspm.html">都数・数物セミナーの記録</a>|
+        <a href="angelsenvy.html">ウイスキーの記録</a>|
+        <a href="zuruzuru.html">ラーメンの記録</a>
+    </nav>
+<div id="container">
+    <h1>t888の遊び場どりゃ</h1>
+    <h2>数学短歌</h2>
+    <ul>
+ひとり立つ　素数の列に　君を見て　割り切れぬまま　互いに素の恋
+          
+・テーマ：素数と恋愛
+・「ひとり立つ 素数の列に」：素数を「誰にも頼らず, ひとりで立っている孤独な存在」に見立てている.
+・「君を見て」：そんな素数の姿に, どこか孤独で近寄りがたい「君」を重ねている.
+・「割り切れぬまま」：数学的には素数は割り切れない整数の関係であり, 恋愛的には、相手への気持ちを整理できない.
+・「互いに素の恋」：君と私には1以外に共通するものがない. 数学的には美しい関係なのに恋愛としては切ない.
+
+
+遠回り　したはずなのに　また君へ　巡る軌道は　君を忘れず
+
+・テーマ：前周期性と恋愛
+・力学系$\phi\colon X\to X$と$x\in X$に対して, $\phi^m(x)=\phi^n(x)$を満たす整数$m>n\geq0$が存在するとき, $x$を$\phi$の前周期点という.
+    </ul>
+
+
+
+
+
+
+
+
+
+          
+
+</html>
